@@ -1,26 +1,52 @@
-Engineering materials
-====
-
-This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2022.
+# WRO-25
 
 ## Content
 
-* `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
-* `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
-* `video` contains the video.md file with the link to a video where driving demonstration exists
-* `schemes` contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
-* `src` contains code of control software for all components which were programmed to participate in the competition
-* `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
-* `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
+### **Index**
+ [The Powerpuff Trio](#The-Powerpuff-Trio) 
+   
+   - Members
+   
+   - Small introduction to them
+   
+ [Hardware Materials](#Hardware-Materials)
 
-## Introduction
 
-_This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
 
-## How to prepare the repo based on the template
+## The Powerpuff Trio 
+Members:
+1) Vedant Varshney
 
-_Remove this section before the first commit to the repository_
+11th Grader in Billabong High International School. First time participating in WRO but has participated many other robotic compenitions. Controlling the making of the github  and helping in other miscellaneous tasks
 
-1. Clone this repo by using the `git clone` functionality.
-2. Remove `.git` directory
-3. [Initialize a new public repository on GitHub](https://github.com/new) by following instructions from "create a new repository on the command line" section (appeared after pressing "Create repository" button).
+2) Siddesh Jain
+
+11th Grader in Billabong High, second time in WRO, the lead engineer and the head of the developement team, responsible for the CAD and all the choices. Races FPV drones and likes math. Also is an idiot.
+   
+3) Sohaan Chhabra
+
+A 12th grader at Billabong High International School. Returning WRO participant. Handles the logic, simulations, camera and LiDAR processing — basically speaks to AI more than humans. Also, races drones just to relax.
+
+## Hardware Materials
+- Rpi 4B
+
+- LiDAR
+  
+- Servo
+
+- Pi Cam
+
+- Stepdown Module
+
+- ToF
+
+- ESC + Motor
+
+- 4s Battery
+
+- Custom Gears
+
+- Custom PCB
+
+- CNC'D Carbon Fibre Plates
+
