@@ -21,8 +21,15 @@
    
  [Hardware Materials](#Hardware-Materials)
 
+ - Name of parts
+
+ - Links
+
+ - Rate per part
+
  [Strategy](#Strategy)
 
+- Basic overview of our strategy
 
 
 ## The Powerpuff Trio 
@@ -54,30 +61,23 @@ A 12th grader at Billabong High International School. Returning WRO participant.
 
 
 ## Hardware Materials
-- Rpi 4B/5
 
-- LiDAR
-  
-- Servo
-
-- Wheels
-
-- Pi Cam
-
-- Stepdown Module
-
-- ToF
-
-- ESC + Motor
-
-- Battery
-
-- Gears
-
-- PCB
-
-- CF
-
+| Name |	Link |	Rate per part (in Rs.) |
+|------|------|------|
+| Rpi 4B/5	| https://www.raspberrypi.com/products/raspberry-pi-5 | -	|	
+| LiDAR	| https://robu.in/product/ydlidar-x4-pro-360-degree-ros-scanner-for-navigation-collision-avoidance-10m/#tab-specification	| 8159 |	
+| Servo	| https://robu.in/product/surpass-hobby-25kg-s2500m-servo/	| 1500 |	
+| Wheels |	https://robu.in/product/65mm-robot-smart-car-12-rim-wheel-blue/ |	167 |	
+| Pi Cam	| https://robu.in/product/arducam-8mp-imx219-175-degree-ultra-wide-angle-raspberry-pi-camera-module-compatible-with-raspberry-pi-4-model-b-pi-3-3b-and-pi-zero-2w/ |	2090	|	
+|Stepdown Module | https://robu.in/product/mini560-dc-5v-5a-step-down-stabilized-module/ | 94 |		
+| ToF |	https://robu.in/product/unsoldered-purple-gy-530-vl53l0x-time-of-flight-tof-laser-ranging-sensor-module/ |	179 |	
+| ESC + Motor |	https://www.hobbywingdirect.com/collections/quicrun-brushless-system/products/quicrun-wp-10bl120-sl-system-g2?variant=41474386854003 |	15000 |	
+| Battery |	- |	1500 |		
+| Gears | - |	2500 |		
+| PCB | - |	2000 |		
+| CF | - |	1500 |		
+		
+							
 ## Strategy
 
 1) We are using a mix of LiDAR, Camera, and ToF (Time-of-Flight) sensors which enables obstacle avoidance.
