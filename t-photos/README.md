@@ -1,4 +1,6 @@
 Team's photos
 ====
+This contains:
+- 1 formal picture
 
-This directory must contain 2 photos of the team (an official one and one funny photo with all team members)
+- 2 informal pictures
