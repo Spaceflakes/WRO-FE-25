@@ -57,7 +57,9 @@ A 12th grader at Billabong High International School. Returning WRO participant.
 
 <img width="1600" height="1067" alt="image" src="https://github.com/user-attachments/assets/ba3a6192-5b88-4cce-b13b-81db39f576c6" />
 
-<img width="1600" height="1067" alt="image" src="https://github.com/user-attachments/assets/d8d4433b-c129-4318-9237-dcf417b1724f" />
+![Informal - 2](https://github.com/user-attachments/assets/1641edea-3b05-48d0-81f9-5d7752013741)
+
+
 
 
 ## Hardware Materials
