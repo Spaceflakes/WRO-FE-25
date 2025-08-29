@@ -273,7 +273,8 @@ Obstacle Challenge (Round 2)
   
 ##### The car by the end of the month
 
-  <img width="215" height="290" alt="image" src="https://github.com/user-attachments/assets/3b37dce8-8a5e-46be-96f1-968a96090c88" />
+  ![IMG_0383](https://github.com/user-attachments/assets/f131f32d-e917-477f-ac7f-650c9e254328)
+
 
 ## August:
 
