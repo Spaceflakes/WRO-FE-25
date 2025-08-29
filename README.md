@@ -2,7 +2,7 @@
 
 ## Content
 ### **Folders**
-* `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
+* [t-photos](#t-photos) contains 2 photos of the team (an official one and one funny photo with all team members)
 * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
 * `video` contains the video.md file with the link to a video where driving demonstration exists
 * `schemes` contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
@@ -158,8 +158,6 @@ Raspberry Pi Camera (CSI-2): Used for vision-based lane detection and traffic si
 
 IMU (connected to Pi): Fusioned with odometry for accurate heading and slip detection.
 
-Ultrasonic/ToF sensors (as redundant safety for close-range object detection).
-
 All sensor data are fused on the Pi SBC, providing robust perception for navigation algorithms.
 
 The Pi implements PWM control for motor speed and servo position, interfacing via logic-level converters with both the ESC and servo. Data logging, sensor fusion, and vehicle state estimation are performed real-time for optimal trajectory planning and reliability in both open track and obstacle challenges.
@@ -176,7 +174,7 @@ Power consumption summary during operation:
 
 ## Schematic Diagram
 
-<img width="2489" height="1269" alt="Screenshot 2025-08-10 at 14 57 45" src="https://github.com/user-attachments/assets/c9d12640-331a-49d0-9a42-9dd9d4e9a003" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/3870a5be-418f-4b19-b648-b6a3c6fe71e6" />
 
 ## Obstacle Management
 
@@ -185,8 +183,6 @@ Power consumption summary during operation:
 1) We are using a mix of LiDAR, Camera, and ToF (Time-of-Flight) sensors which enables obstacle avoidance.
 
 - LiDAR offers highly accurate 3D mapping, critical for safe navigation and obstacle detection.
-
-- ToF sensors enable fast, real-time depth measurement.
 
 - Cameras provide detailed 2D imagery, that complements the 3D data from LiDAR and ToF.
   
@@ -206,9 +202,9 @@ Open Challenge (Round 1)
 
 3) Lane Navigation & Dynamic Obstacle Avoidance Loop
 
-- The vehicle drives forward, continuously evaluating Time-of-Flight (ToF) distances to the side walls.
+- The vehicle drives forward, continuously evaluating the distances to the side walls.
 
-- If both side ToF readings > 2.8m, the bot turns gently toward the side with the higher clearance to maintain centrality and avoid collision.
+- If both sides readings > 2.8m, the bot turns gently toward the side with the higher clearance to maintain centrality and avoid collision.
 
 - The LiDAR module operates in parallel, providing high-frequency wall distance measurements. These are used in a feedback loop for counter-steering—dynamically correcting to keep the chassis parallel to the lane boundaries and maximizing lap speed and safety.
 
