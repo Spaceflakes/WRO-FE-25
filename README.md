@@ -109,14 +109,14 @@ A 12th grader at Billabong High International School. Returning WRO participant.
 
 ![Top View](https://github.com/user-attachments/assets/424d032e-e3d2-49c6-afd5-dd9885c2ce84)
 
+> [!NOTE]
+> We replaced the zipties that strapped on the batteries to the bot with velcro straps.
+
 #### Videos
 
 Round 1 video:
 
 https://youtube.com/shorts/8UYCAtdJtfA?feature=share
-
-> [!NOTE]
-> We replaced the zipties that strapped on the batteries to the bot with velcro straps.
 
 ## Hardware Materials
 
