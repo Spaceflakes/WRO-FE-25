@@ -1,14 +1,22 @@
+<div align="center">
+	
 # WRO-25
 
+# The Powerpuff Trio
+
+<img width="375" height="666" alt="Powerpuff_girls_wallpaper-removebg-preview" src="https://github.com/user-attachments/assets/68181a83-fd3c-4fc0-865d-3a1e5a28625f" />
+
+**_The offical repo of The Powerpuff trio for WRO-FE 2025_**
+</div>
+	
 ## Content
 ### **Folders**
-* `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
+* `t-photos` contains 1 formal image and 2 informal images
 * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
 * `video` contains the video.md file with the link to a video where driving demonstration exists
-* `schemes` contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
+* `schemes` contains schematic diagrams of components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other, along with the models of the PCB.
 * `src` contains code of control software for all components which were programmed to participate in the competition
-* `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
-* `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
+* `models` is for the files for 3D models used by to produce the vehicle elements.
 
 ### **Index**
  [The Powerpuff Trio](#The-Powerpuff-Trio) 
@@ -18,6 +26,10 @@
    - Small introduction to them
 
    - Team Pictures
+
+[Vehicle Photos and Video](#Vehicle-Photos-and-Video)
+
+- Shows the vehicle from all 6 sides and shows a smaple video of it working
    
  [Hardware Materials](#Hardware-Materials)
 
@@ -30,6 +42,10 @@
  [Mobility Management](#Mobility-Management)
  
  - Gives an overview of our bots parts
+
+[Design](#Design)
+
+- Tells how every component is placed. 
 
   [Power Management and Sense Management](#Power-Management-and-Sense-Management)
 
@@ -77,6 +93,25 @@ A 12th grader at Billabong High International School. Returning WRO participant.
 
 ![Informal - 2](https://github.com/user-attachments/assets/b9945d47-10a1-45a9-bf7e-2b5107ddc7c9)
 
+# Vehicle Photos and Video
+
+#### Photos
+
+![Back View](https://github.com/user-attachments/assets/2d36d7ff-e530-4197-9521-25c115ce40a7)
+
+![Front view](https://github.com/user-attachments/assets/fe794212-b412-416e-9cc0-aeeb235acfd6)
+
+![Side View 2](https://github.com/user-attachments/assets/25d4499c-307f-491a-bdcf-24e2221205ec)
+
+![Side View 1](https://github.com/user-attachments/assets/fe65d9e9-1cfe-4ccb-8509-43c0ee9bdb87)
+
+![Bottom View](https://github.com/user-attachments/assets/4a5a569d-0fc6-47b6-8b16-4a2dccec852d)
+
+![Top View](https://github.com/user-attachments/assets/424d032e-e3d2-49c6-afd5-dd9885c2ce84)
+
+> [!NOTE]
+> We replaced the zipties that strapped on the batteries to the bot with velcro straps.
+
 ## Hardware Materials
 
 | Name |	Link |	Rate per part (in Rs.) |
@@ -85,22 +120,21 @@ A 12th grader at Billabong High International School. Returning WRO participant.
 | LiDAR	| https://robu.in/product/ydlidar-x4-pro-360-degree-ros-scanner-for-navigation-collision-avoidance-10m/#tab-specification	| 8159 |	
 | Servo	| https://robu.in/product/surpass-hobby-25kg-s2500m-servo/	| 1500 |	
 | Wheels |	https://robu.in/product/65mm-robot-smart-car-12-rim-wheel-blue/ |	167 |	
-| Pi Cam	| https://robu.in/product/arducam-8mp-imx219-175-degree-ultra-wide-angle-raspberry-pi-camera-module-compatible-with-raspberry-pi-4-model-b-pi-3-3b-and-pi-zero-2w/ |	2090	|	
+| Pi Camera	| https://robu.in/product/arducam-8mp-imx219-175-degree-ultra-wide-angle-raspberry-pi-camera-module-compatible-with-raspberry-pi-4-model-b-pi-3-3b-and-pi-zero-2w/ |	2090	|	
 |Stepdown Module | https://robu.in/product/mini560-dc-5v-5a-step-down-stabilized-module/ | 94 |		
-| ToF |	https://robu.in/product/unsoldered-purple-gy-530-vl53l0x-time-of-flight-tof-laser-ranging-sensor-module/ |	179 |	
 | ESC + Motor |	https://www.hobbywingdirect.com/collections/quicrun-brushless-system/products/quicrun-wp-10bl120-sl-system-g2?variant=41474386854003 |	15000 |	
 | Battery |	- |	1500 |		
 | Gears | - |	2500 |		
 | PCB | - |	2000 |		
 | CF | - |	1500 |	
 
-### PCB & PPCB
+### PCB Design & Prototype PCB
 
-##### PPCB
+##### Prototype PCB
 
 ![WhatsApp Image 2025-08-23 at 5 41 59 PM](https://github.com/user-attachments/assets/215e8902-755f-4a60-9461-2f7f1db96a29)
 
-##### PCB
+##### PCB Design
 
 <img width="989" height="699" alt="Screenshot 2025-08-27 133211" src="https://github.com/user-attachments/assets/086d20ed-95be-46f5-9201-f14b0872d43a" />
 
@@ -141,6 +175,13 @@ The ESC (Hobbywing Quicrun WP-10BL120, G2) regulates current delivery (up to 60A
 
 In summary, the chassis, drivetrain, and steering are holistically integrated to provide robust, agile, and precise mobility
 
+> [!NOTE]
+> We initially selected a carbon fiber chassis for its high strength-to-weight ratio but switched to a simpler material because precise cutting was difficult with our tools. To streamline development, we also opted not to include ToF sensors, using LiDAR and Pi Camera that simplify integration while still delivering reliable obstacle detection and navigation performance, fully in line with competition rules and judging criteria.
+
+ ## Design
+
+We mounted the LiDAR sensor on top of the ESC to ensure that its readings remain accurate and free from interference caused by other components. Since there was limited space in the center of the robot, we attached the two batteries securely on the sides using Velcro straps, which provide both stability and ease of removal. Beneath the LiDAR, the ESC is positioned to maintain a compact arrangement. The motor is placed near the rear wheels for efficient power transmission, while the servo, responsible for steering, is located between the front wheels to allow precise control of direction. The PCB board is carefully installed between the ESC and the front wheels in its own compartment to optimize wiring and accessibility. Our robot uses wheels with a diameter of 65 mm, balancing maneuverability and stability on the track and its overall dimensions of 280 mm in length, 175 mm in width, and 95 mm in height. Additionally, the camera is mounted on the front wing, providing a clear and unobstructed view ahead to assist with navigation during the autonomous run.
+
 ## Power Management and Sense Management
 
 The propulsion and actuation circuits (ESC, motor, servo) are supplied by one LiPo battery. The ESC has a peak draw of 60A (operating at ~50%, or 30A continuous, during typical run), consuming a maximum of 14.8V × 30A = 444 W. The servo draws 10W at peak, and the combined power budget for the actuation side is kept within the safe limits by the battery’s discharge rating.
@@ -179,11 +220,11 @@ Power consumption summary during operation:
 
 ### Strategy
 
-1) We are using a mix of LiDAR, Camera, and ToF (Time-of-Flight) sensors which enables obstacle avoidance.
+1) We are using a mix of LiDAR and the Pi Camera sensors which enables obstacle avoidance.
 
 - LiDAR offers highly accurate 3D mapping, critical for safe navigation and obstacle detection.
 
-- Cameras provide detailed 2D imagery, that complements the 3D data from LiDAR and ToF.
+- Cameras provide detailed 2D imagery, that complements the 3D data from LiDAR.
   
 2) We are using ROS 2 as our main programming framework because it provides a modular and real-time system that connects all our sensors efficiently. This setup ensures smooth communication and coordination between the hardware and software, allowing our system to respond quickly and reliably. Additionally, ROS 2 makes it easy to expand and add new features as the project grows. Overall, ROS 2 gives us a flexible and robust platform suited for developing our project.
 
