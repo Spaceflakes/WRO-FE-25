@@ -47,7 +47,7 @@
 
 - Tells how every component is placed. 
 
-  [Power Management and Sense Management](#Power-Management-and-Sense-Management)
+[Power Management and Sense Management](#Power-Management-and-Sense-Management)
 
   - Gives an overview about the power consumption of our bot and use of each sensor
 
@@ -108,6 +108,12 @@ A 12th grader at Billabong High International School. Returning WRO participant.
 ![Bottom View](https://github.com/user-attachments/assets/4a5a569d-0fc6-47b6-8b16-4a2dccec852d)
 
 ![Top View](https://github.com/user-attachments/assets/424d032e-e3d2-49c6-afd5-dd9885c2ce84)
+
+#### Videos
+
+Round 1 video:
+
+https://youtube.com/shorts/8UYCAtdJtfA?feature=share
 
 > [!NOTE]
 > We replaced the zipties that strapped on the batteries to the bot with velcro straps.
