@@ -114,9 +114,7 @@ A 12th grader at Billabong High International School. Returning WRO participant.
 
 #### Videos
 
-Round 1 video:
 
-https://youtube.com/shorts/8UYCAtdJtfA?feature=share
 
 ## Hardware Materials
 
